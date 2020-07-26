@@ -4,7 +4,7 @@
   "description": "Bare minimal Koa project",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "NODE_ENV=development nodemon server"
   },
   "keywords": [],
   "author": "",
