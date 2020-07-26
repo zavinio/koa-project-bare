@@ -1,7 +1,12 @@
 const Koa = require('koa');
+const router = require("@koa/router")();
+
 const app = new Koa();
 
-app.use(async ctx => {
+app.use(router.routes());
+app.use(router.allowedMethods());
+
+router.get("/", async ctx => {
     ctx.body = 'Hello World';
 });
 
