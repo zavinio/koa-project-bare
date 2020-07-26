@@ -1,4 +1,6 @@
 #!/bin/bash
 
-npm install koa
-npm install nodemon
+rm -rf .git
+
+npm install koa @koa/router
+npm install nodemon --save-dev
