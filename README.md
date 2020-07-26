@@ -1,4 +1,4 @@
-README
+# README
 
 Bare minimal Koa project. Use this for testing and trying out some features.
 
@@ -11,4 +11,3 @@ cd my-project
 ./setup.sh
 npm run dev
 ```
-
