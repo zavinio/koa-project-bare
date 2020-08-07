@@ -2,9 +2,10 @@
   "name": "koa-project-bare",
   "version": "1.0.0",
   "description": "Bare minimal Koa project",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development nodemon server"
+    "clean.all": "rm -rf node_modules; rm -rf package-lock.json",
+    "dev": "NODE_ENV=development nodemon index"
   },
   "keywords": [],
   "author": "",
