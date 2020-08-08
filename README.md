@@ -1,6 +1,6 @@
 # README
 
-Bare minimal Koa project. Use this for testing and trying out some features.
+Minimal Koa project template. Use this for testing and trying out some features.
 
 
 ## Install
