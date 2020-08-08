@@ -1,0 +1,13 @@
+.cache
+.DS_Store
+
+build
+dist
+logs
+node_modules
+
+*.log
+*.gz
+*.swp
+
+package-lock.json
