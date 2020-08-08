@@ -1,7 +1,7 @@
 {
   "name": "koa-project-bare",
   "version": "1.0.0",
-  "description": "Bare minimal Koa project",
+  "description": "Minimal Koa project template",
   "main": "index.js",
   "scripts": {
     "clean.all": "rm -rf node_modules; rm -rf package-lock.json",
